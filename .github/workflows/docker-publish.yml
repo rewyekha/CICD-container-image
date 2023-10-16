@@ -30,7 +30,7 @@ jobs:
        contents: read
        checks: write
        
-  build:
+   build:
     needs: [integration]
     
     runs-on: ubuntu-latest
